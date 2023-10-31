@@ -28,6 +28,9 @@ const Result = ({ data }) => {
         <p className="text-base text-gray-500">
           {data[0].meanings[0].definitions[0].definition}
         </p>
+        <p className="text-base text-gray-500">
+          {data[1]?.meanings[1]?.definitions[1]?.definition}
+        </p>
         <p className="text-gray-500 font-serif border-l-4 border-purple-500 pl-5 mt-5">
           {data[0].meanings[0].definitions[0].example || " "}
         </p>
